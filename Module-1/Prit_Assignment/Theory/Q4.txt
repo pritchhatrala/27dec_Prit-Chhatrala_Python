@@ -1,0 +1,23 @@
+4. Installing Python and setting up the development environment (Anaconda, PyCharm, or VS
+Code).
+
+Install Visual Studio Code (VS Code) (Lightweight and Highly Customizable)
+VS Code is a free, open-source code editor developed by Microsoft. It’s lightweight, fast, and highly customizable. VS Code supports Python development through extensions, and it’s widely used for both Python scripting and web development.
+
+Steps to install VS Code:
+
+Go to the VS Code website and download the installer for your operating system.
+After installing, open VS Code and install the Python extension by Microsoft:
+Go to the Extensions view (click the square icon on the left sidebar).
+Search for Python and click Install.
+Setting up Python in VS Code:
+
+After installing the Python extension, open a folder or create a new Python file (.py).
+Select the Python interpreter by clicking on the Python version in the bottom-left corner of VS Code and choosing the correct Python environment.
+If you have a virtual environment or Anaconda environment, you can select that to ensure your code runs in the desired environment.
+VS Code Features:
+
+Lightweight and fast.
+IntelliSense (code completion and suggestions).
+Git integration.
+Customizable with a wide range of extensions for web development, database management, etc.

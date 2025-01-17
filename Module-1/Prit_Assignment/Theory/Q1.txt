@@ -1,0 +1,16 @@
+1. Introduction to Python and its Features (simple, high-level, interpreted language)
+
+Python is a high-level, general-purpose programming language that emphasizes code readability and simplicity. Developed by Guido van Rossum and released in 1991, Python has gained immense popularity in various domains, including web development, data science, automation, machine learning, and more.
+
+Key Features of Python:
+
+Simple and Easy to Learn:
+Python has a clean and readable syntax, making it easy for beginners to learn and understand. The code closely resembles the English language, which improves its readability and reduces the complexity of writing and maintaining code.
+
+High-Level Language:
+Python is a high-level language, which means it abstracts complex low-level operations like memory management and hardware interaction. This allows developers to focus more on solving problems rather than managing the underlying system architecture.
+It is portable and platform-independent, meaning Python code can run on any system without requiring modification.
+
+Interpreted Language:
+Python is an interpreted language, which means code is executed line by line by the Python interpreter. This makes debugging easier, as errors are shown immediately.
+Python doesn't require a separate compilation step, making the development process faster and more interactive.

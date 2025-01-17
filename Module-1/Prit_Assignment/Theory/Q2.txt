@@ -1,0 +1,7 @@
+2. History and evolution of Python.
+
+Python was developed by Guido van Rossum in the late 1980s. The language’s evolution and success can be attributed to its simplicity, readability, and flexibility. Below is an overview of its history and major milestones:
+
+1. The Birth of Python (1980s):
+In December 1989, Guido van Rossum began working on Python at Centrum Wiskunde & Informatica (CWI) in the Netherlands. Python was conceived as a successor to the ABC programming language, which was also developed at CWI but had limitations in handling exceptions and interfacing with the operating system.
+Guido van Rossum aimed to create a language that was easy to read and write while being powerful enough for system programming and application development.
