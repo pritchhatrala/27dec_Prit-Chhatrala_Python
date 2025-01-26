@@ -1,0 +1,2 @@
+14. How loops work in Python. 
+Loops in Python allow you to repeat a block of code multiple times, either for a specific number of iterations or until a condition is met. Python provides two types of loops: for loops and while loops, each serving different purposes. Here's how they work:

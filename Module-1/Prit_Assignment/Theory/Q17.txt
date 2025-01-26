@@ -1,0 +1,32 @@
+17. Difference between yield and return. 
+
+1. Return Statement
+Usage: The return statement is used to exit a function and return a value to the caller.
+Function Behavior: When a function contains return, it immediately exits the function, and the returned value is passed back to the caller. After returning a value, the function terminates, and no further code inside that function will be executed.
+Memory: When using return, the function executes all the code at once and returns a result (typically as a whole value or object).
+Execution: After the return statement, the function completes its execution and doesn’t retain its previous state.
+Example with return:
+def add(a, b):
+    return a + b
+
+result = add(2, 3)
+print(result)  # Output: 5
+
+2. Yield Statement
+Usage: The yield statement is used in generator functions to pause the function's execution and return an intermediate result. Unlike return, a generator can yield multiple values during its execution.
+Function Behavior: When a function contains yield, it pauses and returns a value, but unlike return, the function remembers where it left off and can continue from that point when next() is called again.
+Memory: Generators are memory-efficient because they only generate one value at a time and do not require storing the entire sequence in memory.
+Execution: After yielding a value, the function’s state is saved, and it can be resumed later without starting from the beginning.
+Example with yield:
+def count_up_to(n):
+    count = 1
+    while count <= n:
+        yield count
+        count += 1
+
+gen = count_up_to(3)
+
+print(next(gen))  # Output: 1
+print(next(gen))  # Output: 2
+print(next(gen))  # Output: 3
+

@@ -1,0 +1,29 @@
+8. Understanding data types: integers, floats, strings, lists, tuples, dictionaries, sets.
+
+1--Integers (int) – Whole numbers, positive or negative, without decimals.
+Example:
+num = 10  # Example of an integer
+
+2--Floats (float) – Numbers with decimal points or scientific notation.
+Example:
+price = 99.99  # Example of a float
+
+3--Strings (str) – A sequence of characters enclosed in quotes.
+Example:
+text = "Hello, Python!"  # Example of a string
+
+4--Lists (list) – Ordered, mutable (changeable) collection of elements. Supports different data types.
+Example:
+my_list = [1, 2, 3, "apple", 4.5]  # Example of a list
+
+5--Tuples (tuple) – Ordered, immutable (unchangeable) collection of elements.
+Example:
+my_tuple = (10, 20, "banana")  # Example of a tuple
+
+6--Dictionaries (dict) – Key-value pairs, where keys are unique, and values can be any data type.
+Example:
+my_dict = {"name": "Alice", "age": 25}  # Example of a dictionary
+
+7--Sets (set) – Unordered, unique collection of elements. Useful for removing duplicates.
+Example:
+my_set = {1, 2, 3, 3, 4}  # Example of a set (duplicates are removed)

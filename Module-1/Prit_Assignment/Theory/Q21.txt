@@ -1,0 +1,49 @@
+21. Scope of variables in Python.
+
+Types of Variable Scope
+1. Local Scope
+--A variable is considered to have local scope if it is defined inside a function or a block of code and can only be accessed within that function or block.
+--The variable exists only during the execution of that function and is destroyed once the function completes.
+
+Example:
+def greet():
+    name = "Alice"  # Local variable
+    print(name)
+
+greet()  # Output: Alice
+# print(name)  # This will raise an error because 'name' is local to the greet() function.
+
+
+2. Enclosing Scope
+
+If a function is nested inside another function, variables in the outer function are accessible to the inner function but not vice versa. This is known as the enclosing scope.
+
+Example:
+def outer_function():
+    name = "Alice"  # Enclosing variable
+    
+    def inner_function():
+        print(name)  # Accesses 'name' from the outer scope
+    
+    inner_function()
+
+outer_function()  # Output: Alice
+
+3.Global Scope
+--A variable has global scope if it is defined outside of any function. These variables can be accessed from any part of the program, including inside functions, unless shadowed by a local variable with the same name.
+--Global variables are typically declared at the top level of the program.
+
+Example:
+name = "Alice"  # Global variable
+
+def greet():
+    print(name)  # Accesses global variable 'name'
+
+greet()  # Output: Alice
+
+4.Built-in Scope
+--The built-in scope contains names that are predefined in Python, such as functions like print(), len(), and other core modules.
+These are available in any part of the program without needing to import anything.
+
+Example:
+print(len("Hello"))  # Using a built-in function 'len'

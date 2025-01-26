@@ -1,0 +1,25 @@
+9. Python variables and memory allocation. 
+
+1. Python Variables
+A variable in Python is a name that refers to a memory location where data is stored. Unlike statically typed languages, Python variables do not require explicit type declarations.
+
+example:
+x = 10      # Integer variable
+y = 3.14    # Float variable
+name = "Alice"  # String variable
+
+2. Memory Allocation in Python
+When you assign a value to a variable, Python allocates memory dynamically:
+
+Small integers (-5 to 256) are stored in a shared pool to optimize performance.
+Larger objects (strings, lists, dictionaries, etc.) are stored in heap memory.
+Variables are references to memory locations rather than the actual values.
+
+example:
+a = 100
+b = 100
+print(a is b)  # Output: True (same memory reference for small integers)
+
+x = [1, 2, 3]
+y = [1, 2, 3]
+print(x is y)  # Output: False (different memory locations)

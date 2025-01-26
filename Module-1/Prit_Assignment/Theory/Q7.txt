@@ -1,0 +1,20 @@
+7. Indentation, comments, and naming conventions in Python.
+
+1-->Indentation: Python uses indentation (4 spaces per level) to define code blocks, instead of braces {} like other languages. Proper indentation is essential, as incorrect spacing will cause errors. 
+Example:
+def greet():
+    print("Hello, World!")  # Indented with 4 spaces
+
+2-->Comments: Comments improve code readability and are ignored by the Python interpreter. Use # for single-line comments and triple quotes (""") for multi-line docstrings. 
+Example:
+# This is a single-line comment
+"""
+This is a multi-line comment or docstring.
+It is often used for function documentation.
+"""
+
+3-->Naming Conventions: Follow PEP 8 guidelines for clear and consistent naming. Use snake_case for variables and functions, PascalCase for class names, and UPPERCASE_SNAKE_CASE for constants. 
+Example:
+user_name = "Alice"       # Variable (snake_case)
+class UserProfile:        # Class (PascalCase)
+MAX_LIMIT = 100          # Constant (UPPERCASE_SNAKE_CASE)

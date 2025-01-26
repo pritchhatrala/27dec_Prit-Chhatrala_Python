@@ -1,0 +1,21 @@
+10. Python operators: arithmetic, comparison, logical, bitwise.
+
+Python provides various types of operators to perform different operations on variables and values. Arithmetic operators such as +, -, *, /, //, %, and ** are used for mathematical calculations like addition, subtraction, multiplication, division, and exponentiation. Comparison operators (==, !=, >, <, >=, <=) compare two values and return True or False based on the condition. Logical operators (and, or, not) are used to evaluate boolean expressions, where and returns True only if both conditions are True, or returns True if at least one condition is True, and not reverses the boolean value. Bitwise operators (&, |, ^, ~, <<, >>) operate at the binary level, performing operations like AND, OR, XOR, NOT, left shift, and right shift. These operators play a crucial role in writing efficient and logical Python programs, making it easy to manipulate numbers, compare values, and handle boolean logic. 
+
+example:
+a, b = 10, 3
+
+# Arithmetic
+print("Addition:", a + b)
+print("Division:", a / b)
+
+# Comparison
+print("Is a greater than b?", a > b)
+
+# Logical
+x, y = True, False
+print("x AND y:", x and y)
+
+# Bitwise
+print("Bitwise AND:", a & b)
+print("Left Shift a << 1:", a << 1)

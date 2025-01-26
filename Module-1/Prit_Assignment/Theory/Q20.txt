@@ -1,0 +1,39 @@
+20. Function arguments (positional, keyword, default). 
+1. Positional Arguments
+Positional arguments are the most common type of arguments. The order in which they are passed matters because the function assigns them based on the position in the parameter list.
+Example:
+def greet(name, age):
+    print(f"Hello {name}, you are {age} years old.")
+
+greet("Alice", 25)  # Output: Hello Alice, you are 25 years old.
+
+2. Keyword Arguments
+Keyword arguments allow you to pass values to parameters using the parameter names, making the function calls more explicit and readable.
+Example:
+def greet(name, age):
+    print(f"Hello {name}, you are {age} years old.")
+
+greet(age=30, name="Bob")  # Output: Hello Bob, you are 30 years old.
+
+3. Default Arguments
+Default arguments allow you to assign a default value to a parameter in case the caller does not provide one. If a value is provided, it overrides the default.
+Example:
+def greet(name, greeting="Hello"):
+    print(f"{greeting}, {name}!")
+
+greet("Alice")             # Output: Hello, Alice!
+greet("Bob", "Good morning")  # Output: Good morning, Bob!
+
+-----Combining Positional, Keyword, and Default Arguments
+You can combine positional, default, and keyword arguments in one function. However, the order in which they appear is important:
+
+--Positional arguments come first.
+--Default arguments follow positional arguments.
+--Keyword arguments are placed at the end.
+
+Example:
+def greet(name, age, greeting="Hello"):
+    print(f"{greeting}, {name}. You are {age} years old.")
+
+greet("Alice", 25)                 # Output: Hello, Alice. You are 25 years old.
+greet("Bob", 30, "Good morning")   # Output: Good morning, Bob. You are 30 years old.

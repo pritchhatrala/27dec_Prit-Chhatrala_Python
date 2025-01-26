@@ -1,0 +1,32 @@
+23. Understanding the role of break, continue, and pass in Python loops. 
+1. break Statement
+The break statement is used to exit the loop immediately when a specific condition is met.
+It stops further iteration and moves execution to the next statement after the loop.
+
+Example: Using break in a for loop
+for num in range(1, 6):
+    if num == 3:
+        break  # Loop stops when num is 3
+    print(num)
+
+
+2. continue Statement
+The continue statement skips the current iteration and moves to the next loop iteration.
+It does not exit the loop; it only bypasses the remaining code for that iteration.
+
+Example: Using continue in a for loop
+for num in range(1, 6):
+    if num == 3:
+        continue  # Skips when num is 3
+    print(num)
+
+
+3. pass Statement
+The pass statement is a placeholder that does nothing.
+It is often used in empty functions, loops, or conditionals where code is yet to be implemented.
+
+Example: Using pass in a loop
+for num in range(5):
+    if num == 2:
+        pass  # Does nothing, just a placeholder
+    print(num)

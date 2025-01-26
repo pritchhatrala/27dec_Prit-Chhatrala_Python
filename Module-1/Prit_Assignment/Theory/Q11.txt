@@ -1,0 +1,13 @@
+11. Introduction to conditional statements: if, else, elif.
+
+Conditional statements in Python allow decision-making in programs by executing different blocks of code based on conditions. The if statement checks a condition and executes code if the condition is True. The else statement provides an alternative block of code that runs when the if condition is False. The elif (else if) statement is used when multiple conditions need to be checked sequentially.
+
+Example:
+age = 18
+
+if age > 18:
+    print("You are an adult.")  # Runs if age is greater than 18
+elif age == 18:
+    print("You just became an adult!")  # Runs if age is exactly 18
+else:
+    print("You are a minor.")  # Runs if age is less than 18

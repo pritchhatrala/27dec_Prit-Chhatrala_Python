@@ -1,0 +1,18 @@
+13. Introduction to for and while loops.
+
+1. for Loop
+The for loop is used to iterate over a sequence (like a list, tuple, string, or range) and execute a block of code for each item in that sequence. It is useful when you know beforehand how many times you want to repeat an action.
+Example:
+fruits = ["apple", "banana", "cherry"]
+
+for fruit in fruits:
+    print(fruit)
+
+2. while Loop
+The while loop is used to repeatedly execute a block of code as long as a given condition is True. It is useful when you don't know how many times you need to loop, but you have a condition that will eventually stop the loop.
+Example:
+counter = 0
+
+while counter < 3:
+    print("Counter is", counter)
+    counter += 1

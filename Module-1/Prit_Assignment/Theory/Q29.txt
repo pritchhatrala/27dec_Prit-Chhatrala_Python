@@ -1,0 +1,31 @@
+29. Introduction to closures and decorators. 
+
+--Closures
+A closure is a function that remembers the scope in which it was created, even after that scope has ended. This happens when a nested function accesses variables from its enclosing function.
+
+Example:
+def outer_function(x):
+    def inner_function(y):
+        return x + y  # Inner function remembers 'x'
+    return inner_function  # Returning inner function
+
+closure_instance = outer_function(10)
+print(closure_instance(5))  # Output: 15
+
+
+--Decorators
+A decorator is a higher-order function that modifies another function’s behavior without changing its structure. It is commonly used for logging, authentication, and performance measurement.
+
+Example:
+def decorator_function(original_function):
+    def wrapper():
+        print("Before function execution")
+        original_function()
+        print("After function execution")
+    return wrapper
+
+@decorator_function
+def say_hello():
+    print("Hello!")
+
+say_hello()

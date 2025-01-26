@@ -1,0 +1,3 @@
+6. Understanding Python’s PEP 8 guidelines. 
+
+-->Python’s PEP 8 is a style guide that promotes writing clean, readable, and consistent code. It recommends 4-space indentation, a 79-character line limit, and proper whitespace usage around operators and commas. Naming conventions include snake_case for variables/functions, PascalCase for classes, and UPPERCASE_SNAKE_CASE for constants. Comments should be concise, with # for single-line and triple quotes (""") for docstrings. Import statements should be at the top, each on a separate line. Following PEP 8 improves code readability, maintainability, and collaboration, making Python development more professional and efficient. 

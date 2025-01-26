@@ -1,0 +1,15 @@
+12. Nested if-else conditions. 
+
+A nested if-else statement occurs when an if or else condition is placed inside another if or else. This allows for more complex decision-making structures. It helps in handling multiple levels of conditions, where each condition is checked in a hierarchy.
+
+Example:
+age = 25
+has_ID = True
+
+if age >= 18:
+    if has_ID:
+        print("You are eligible to vote.")
+    else:
+        print("You need an ID to vote.")
+else:
+    print("You are not eligible to vote.")

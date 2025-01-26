@@ -1,0 +1,35 @@
+19.Defining and calling functions in Python. 
+
+In Python, functions are defined using the def keyword, followed by the function name and optional parameters in parentheses. Once defined, a function can be called by writing its name followed by parentheses with the appropriate arguments. Functions can return values using the return statement, or they can perform actions like printing without returning anything. Python also allows default parameter values, so if arguments are not provided during the function call, the default values are used. Functions can accept a variable number of arguments using *args for non-keyword arguments and **kwargs for keyword arguments. This flexibility makes functions in Python a powerful tool for organizing and reusing code in a modular and readable way.
+
+Example:
+# Function with default parameters and return
+def greet(name, greeting="Hello"):
+    return f"{greeting}, {name}!"
+
+print(greet("Alice"))              # Output: Hello, Alice!
+print(greet("Bob", "Good Morning"))  # Output: Good Morning, Bob!
+
+# Function with *args (variable non-keyword arguments)
+def sum_numbers(*args):
+    return sum(args)
+
+print(sum_numbers(1, 2, 3))        # Output: 6
+print(sum_numbers(10, 20, 30, 40)) # Output: 100
+
+# Function with **kwargs (variable keyword arguments)
+def print_details(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+
+print_details(name="Alice", age=25, city="New York")
+# Output:
+# name: Alice
+# age: 25
+# city: New York
+
+# Function with return and no parameters
+def get_message():
+    return "This is a simple message."
+
+print(get_message())  # Output: This is a simple message.

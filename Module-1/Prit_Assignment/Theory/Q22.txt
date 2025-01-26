@@ -1,0 +1,49 @@
+22. Built-in methods for strings, lists, etc. 
+
+1.upper()
+Converts all characters in a string to uppercase.
+Exmaple:
+text = "hello"
+print(text.upper())  # Output: HELLO
+
+2.lower()
+Converts all characters in a string to lowercase.
+Exmaple:
+text = "HELLO"
+print(text.lower())  # Output: hello
+
+3. strip()
+Removes leading and trailing whitespace (or specified characters) from a string.
+Exmaple:
+text = "  Hello  "
+print(text.strip())  # Output: Hello
+
+4. replace(old, new)
+Replaces occurrences of old with new in a string.
+Exmaple:
+text = "Hello World"
+print(text.replace("World", "Python"))  # Output: Hello Python
+
+5. split()
+Splits the string into a list of words based on a delimiter (default is whitespace).
+Exmaple:
+text = "Hello Python World"
+print(text.split())  # Output: ['Hello', 'Python', 'World']
+
+6.find(substring)
+Returns the lowest index where the substring is found, or -1 if not found.
+Exmaple:
+text = "Hello Python"
+print(text.find("Python"))  # Output: 6
+
+7.join(iterable)
+Joins a sequence of strings into one string using the specified separator.
+Exmaple:
+words = ["Hello", "Python"]
+print(" ".join(words))  # Output: Hello Python
+
+8.startswith(prefix)
+Checks if the string starts with the specified prefix.
+Exmaple:
+text = "Hello Python"
+print(text.startswith("Hello"))  # Output: True

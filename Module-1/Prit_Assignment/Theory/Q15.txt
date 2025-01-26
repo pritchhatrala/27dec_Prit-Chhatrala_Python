@@ -1,0 +1,56 @@
+15. Using loops with collections (lists, tuples, etc.).
+
+1. Using for Loop with Lists
+A list is an ordered collection of elements, and you can use a for loop to iterate through each element of the list.
+
+Example with List:
+fruits = ["apple", "banana", "cherry"]
+
+for fruit in fruits:
+    print(fruit)
+
+
+2. Using for Loop with Tuples
+A tuple is similar to a list, but it is immutable (its contents cannot be changed). You can use a for loop to iterate through its elements just like a list.
+
+Example with Tuple:
+coordinates = (1, 2, 3)
+
+for coordinate in coordinates:
+    print(coordinate)
+
+
+3. Using for Loop with Dictionaries
+A dictionary is a collection of key-value pairs. When iterating over a dictionary, you can use for loops in different ways to access keys, values, or both.
+
+Example with Dictionary (keys and values):
+person = {"name": "Alice", "age": 25, "city": "New York"}
+
+# Iterating over keys
+for key in person:
+    print(key, ":", person[key])
+
+# Iterating over key-value pairs
+for key, value in person.items():
+    print(key, ":", value)
+
+4. Using for Loop with Sets
+A set is an unordered collection of unique elements. Like lists and tuples, you can iterate over a set using a for loop.
+
+Example with Set:
+unique_numbers = {1, 2, 3, 4, 5}
+
+for num in unique_numbers:
+    print(num)
+
+
+5. Using while Loop with Collections
+You can also use a while loop with collections, though it's less common than the for loop. You generally need to manage an index or iterator yourself.
+
+Example with List (Using Index):
+fruits = ["apple", "banana", "cherry"]
+index = 0
+
+while index < len(fruits):
+    print(fruits[index])
+    index += 1

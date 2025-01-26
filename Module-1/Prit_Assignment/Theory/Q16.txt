@@ -1,0 +1,11 @@
+16. Understanding how generators work in Python. 
+
+In Python, a generator is a special type of iterator that is defined using a function with the yield keyword, instead of returning a value using return. Generators allow you to iterate over a sequence of values without storing the entire sequence in memory, making them memory efficient, especially for large datasets.
+
+How Generators Work
+
+--yield keyword: Instead of return, a generator function uses yield to return a value. Each time the generator’s __next__() method is called, the function execution resumes from the point where the last yield occurred, not from the beginning.
+
+--Lazy evaluation: Generators don’t generate all values at once. They produce values one by one when requested, which saves memory and allows working with large data sets efficiently.
+
+--State preservation: When a generator yields a value, it saves its state (local variables, execution point), so the next time next() is called, the function continues from where it left off.
