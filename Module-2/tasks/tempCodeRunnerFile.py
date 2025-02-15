@@ -1,0 +1,1 @@
+input("how many student's data you want to add? ")
